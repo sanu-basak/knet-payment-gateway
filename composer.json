@@ -1,5 +1,5 @@
 {
-    "name": "o2one/knet_payment_gateway",
+    "name": "o2one/knet-payment-gateway",
     "description": "This package is provides an expressive, fluent interface to Knet's payment services.",
     "require": {
         "php": "^7.3",
