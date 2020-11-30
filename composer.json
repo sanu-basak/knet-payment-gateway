@@ -20,13 +20,13 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "O2oneLabs\\Knet\\": "src/"
+            "O2oneLabs\\KnetPaymentGateway\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "O2oneLabs\\Knet\\KnetServiceProvider"
+                "O2oneLabs\\KnetPaymentGateway\\KnetServiceProvider"
             ]
         }
     }
