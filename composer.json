@@ -1,0 +1,26 @@
+{
+    "name": "o2one/knet_payment_gateway",
+    "description": "This package is provides an expressive, fluent interface to Knet's payment services.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sanu",
+            "email": "sanu@o2onelabs.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "O2oneLabs\\Knet\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "O2oneLabs\\Knet\\KnetServiceProvider"
+            ]
+        }
+    }
+}
