@@ -1,6 +1,6 @@
 <?php
 
-namespace O2one\Knet;
+namespace O2one\KnetPaymentGateway;
 
 use Illuminate\Support\ServiceProvider;
 
