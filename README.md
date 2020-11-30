@@ -13,7 +13,7 @@ This package used to integrate with the new Knet payment gateway.
 
 1) Install the package by running this command in your terminal/cmd:
 ```
-composer require o2one/knet_payment_gateway
+composer require o2one/knet-payment-gateway
 ```
 
 2) Create this package's Knet to the tap option of your gateway in **config/knet.php**:
